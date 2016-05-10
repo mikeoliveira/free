@@ -34,7 +34,7 @@ h2{
     font-weight: bold !important;
 }
 .bg-header{
-    background: url('../img/main_bg_1.jpg') top left;
+    background: url('../img/main-bg-1.jpg') top left;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 700px;
