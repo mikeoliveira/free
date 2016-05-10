@@ -1,0 +1,150 @@
+@font-face {
+    font-family: LiberationSans;
+    src: url(‘../fonts/LiberationSans-Regular.ttf’);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: arialBoldMT;
+    src: url(‘../fonts/arialBoldMT.otf’);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (max-width: 1200px) {
+        .nav-principal{
+            margin-left: 0 !important;
+        }
+      .nav-principal li a{
+         width: 193px;
+      }
+}
+
+body{
+    font-family: sans-serif;
+}
+header{
+    height:100px;
+    padding: 10px 30px;
+}
+h2{
+    text-transform: uppercase;
+    font-size:35px !important;
+    font-weight: bold !important;
+}
+.bg-header{
+    background: url('../img/main_bg_1.jpg') top left;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+    color: #FFF;
+    position: relative;
+}
+.bg-header .container-info{
+    margin-top: 100px;
+    height: 300px;
+    background: rgba(0,0,0,0.5);
+    padding: 40px 80px;
+}
+.bg-header .container-info .container-qtd-dias{
+    position: relative;
+    padding:1px 15px;
+    border: 1px solid #FFF;
+    text-align: center
+}
+.box-inscricao{
+    margin-top: 50px;
+    margin-left: 28px;
+    color: #FFF;
+    line-height: 35px;
+    text-align: center;
+}
+.blue{
+    background: #083c78 !important;
+}
+.box-inscricao .btn-inscricao{
+    border-radius: 0;
+    padding: 7px 20px;
+    line-height: 20px
+    border: 0;
+    background-image:none !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+.box-inscricao span{
+    font-size: 16px;
+    margin-top: 10px;
+
+}
+.nav-principal{
+    position: absolute;
+    bottom: 0;
+}
+.nav-principal li a:hover{
+    font-size: 14px !important;
+}
+.nav-principal li a{
+    background:#d3d3d3;
+    border: 1px solid #FFF;
+    border-left: 0;
+    color: #000;
+}
+.nav-principal .active a{
+    color: #FFF;
+}
+.nav-principal li:first-child a{
+    border-left: 1px solid #FFF;
+}
+.nav-justified{
+    width: 80%  ;
+    margin-left: 100px;
+}
+.nav-principal li a{
+    font-size: 12px !important;
+    border-radius: 0px !important;
+}
+
+
+.box-important-info ul li{
+    list-style: none;
+}
+.box-important-info ul{
+    padding-left: 0;
+}
+.box-important-info ul li i{
+    margin-right: 5px;
+}
+.box-important-info  .box-preparado li{
+    color: #757575;
+    margin-bottom: 5px;
+}
+.box-important-info  .box-preparado h2{
+    color: #083c78;
+}
+.box-important-info  .box-preparado{
+    padding:30px 200px;
+}
+
+.box-important-info  .box-desafio{
+    background: #083c78;
+    color: #FFF;
+    padding:50px 200px;
+}
+
+.box-important-info  .box-desafio img{
+        float: left;
+        height: 300px;
+        height: 215px;
+        margin-right: 30px;
+}
+
+
+.principal-content p{
+    height: 60px;
+    background: #CCC;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    line-height: 60px;
+}
